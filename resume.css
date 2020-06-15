@@ -17,6 +17,9 @@ h1{
     font-weight: 700;
     font-size: 35px;
 }
+p{
+    margin-bottom: 1mm;
+}
 
 * {
     box-sizing: border-box;
@@ -46,6 +49,7 @@ h1{
     border-radius: 50%;
     width: 30mm;
     margin-left: 20mm;
+    filter: grayscale(100%);
 }
 
 .page-body{
@@ -64,7 +68,7 @@ h1{
     width: 20mm;
     margin-top: 5mm;
     border-radius: 2mm;
-    background-color: #F02D31;
+    background-color: #E55754;
 }
 .page-section .gray-bar{
     width: 10mm;
