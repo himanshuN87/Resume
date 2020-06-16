@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #505050;
+    background-color: #F8F8F8;
     color: #424242;
     font-size: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -44,6 +44,7 @@ p{
 
 .page-header{
     min-height: 40mm;
+    margin-bottom: 5mm;
 }
 .page-header img{
     border-radius: 50%;
@@ -52,6 +53,13 @@ p{
     filter: grayscale(100%);
 }
 
+.contact-icon:not(:last-child){
+    margin-bottom: 3mm;
+}
+.contact-icon i{
+    margin-right: 5mm;
+    font-size: 14px;
+}
 .page-body{
     min-height: 240mm;
     /* border: 1px dashed #000000; */
@@ -87,6 +95,7 @@ p{
     color: #E55754;
     font-family: 'Lexend Tera', sans-serif;
     font-weight: 800;
+    margin-bottom: 5mm;
 }
 
 .page-section .sub-header{
@@ -100,19 +109,21 @@ p{
 
 .page-section .left{
     /* border: 1px dashed #000000; */
-    max-width: 200mm;
+    min-width: 135mm;
+    max-width: 135mm;
 }
 .page-section .right{
     /* border: 1px dashed #000000; */
     flex-grow: 1;
 }
 .page-section .section{
-    padding: 10mm 10mm 0mm 10mm;
+    padding: 7mm 10mm 0mm 10mm;
 }
 
-.page-section .section .sub-section{
-    padding-top: 5mm;
+.page-section .sub-section{
+    margin-bottom: 5mm;
 }
+
 .skill{
     margin-bottom: 3mm;
 }
