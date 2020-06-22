@@ -43,7 +43,7 @@ p{
     -moz-box-sizing: border-box;
 }
 .page {
-    width: 210mm;
+    width: 250mm;
     min-height: 297mm;
     margin: 10mm auto;
     background-color: white;
@@ -127,14 +127,14 @@ p{
 
 .page-section .left{
     /* border: 1px dashed #000000; */
-    min-width: 130mm;
-    max-width: 130mm;
+    min-width: 160mm;
+    max-width: 160mm;
 }
 .page-section .right{
     /* border: 1px dashed #000000; */
     flex-grow: 1;
-    min-width: 75mm;
-    max-width: 75mm;
+    min-width: 85mm;
+    max-width: 55mm;
 }
 .page-section .section{
     padding: 7mm 10mm 0mm 10mm;
@@ -153,7 +153,7 @@ p{
 }
 @media print {
     html, body {
-        width: 210mm;
+        width: 250mm;
         height: 297mm;        
     }
     .page {
