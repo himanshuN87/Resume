@@ -44,7 +44,7 @@ p{
 }
 .page {
     width: 250mm;
-    min-height: 297mm;
+    min-height: 310mm;
     margin: 10mm auto;
     background-color: white;
     box-shadow: 0 0 20px rgba(1, 1, 1, 1);
@@ -77,7 +77,7 @@ p{
     font-size: 14px;
 }
 .page-body{
-    min-height: 240mm;
+    min-height: 250mm;
     /* border: 1px dashed #000000; */
 }
 .page-heading{
@@ -154,7 +154,7 @@ p{
 @media print {
     html, body {
         width: 250mm;
-        height: 297mm;        
+        height: 310mm;        
     }
     .page {
         margin: 0;
